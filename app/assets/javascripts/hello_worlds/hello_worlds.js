@@ -19,3 +19,11 @@ function ponerNumero(){
         }
     });
 }
+
+function volver(){
+    window.open("/hello_worlds/index", "_self");
+}
+
+function users(){
+    window.open("/users", "_self");
+}
