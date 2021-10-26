@@ -1,0 +1,2 @@
+module SiguientesVistasHelper
+end
