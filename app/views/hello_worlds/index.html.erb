@@ -1,7 +1,23 @@
-<button onclick="mostrar()">Presionar</button>
-<div id="primerMensaje" style="display: none">
-  <h3>Mensaje oculto</h3>
+<div ng-controller="helloWorldsCtrl" ng-init="init()">
+  <div>
+    <h1>{{ saludo }}</h1>
+  </div>
+  <div>
+    <button onclick="mostrar()">Presionar</button>
+    <button ng-click="mensajeOculto()">Presionar2</button>
+    <button onclick="cambiarPantalla()">Cambiar página</button>
+    <button onclick="users()">Users</button>
+  </div>
+  <br>
+  <div>
+    <label>Nombre: <input type="text" ng-model="nombre">&ensp; {{"Hola " + nombre}}</label>
+  </div>
+  <br>
+  <div id="primerMensaje" style="display: none">
+    <h3>Mensaje oculto</h3>
+  </div>
+  <div id="segundoMensaje" style="display: none">
+    <h3>Segundo Mensaje oculto</h3>
+  </div>
 </div>
-<button onclick="cambiarPantalla()">Cambiar página</button>
-<button onclick="users()">Users</button>
 

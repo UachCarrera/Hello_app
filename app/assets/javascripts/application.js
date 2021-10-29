@@ -14,6 +14,9 @@
 //= require turbolinks
 //= require jquery
 //= require jquery_ujs
+//= require angular
+//= require angular-animate
+//= require angular-resource
 //= require_tree .
 //= require hello_worlds/hello_worlds
 
